@@ -15,3 +15,25 @@ if len(errors_tokens) == 0:
 else:
     print('Erros are found in:',errors_tokens)
 ```
+# Citation
+Please cite this paper if you use our data or code.
+
+```angular2html
+@inproceedings{shu-etal-2021-logic,
+    title = "Logic-Consistency Text Generation from Semantic Parses",
+    author = "Shu, Chang  and
+      Zhang, Yusen  and
+      Dong, Xiangyu  and
+      Shi, Peng  and
+      Yu, Tao  and
+      Zhang, Rui",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.388",
+    doi = "10.18653/v1/2021.findings-acl.388",
+    pages = "4414--4426",
+}
+```
