@@ -1,7 +1,7 @@
 # BLEC
 Bidirectional Logic Evaluation for Consistency (BLEC), an auto metrics for logic consistency between Natural Language and Formal Languages.
 
-This is the official implementation of the BLEC in the Findings of ACL 2021 paper: Logic-Consistency Text Generation from Semantic Parses
+This is the official implementation of the BLEC in the Findings of ACL 2021 paper: [Logic-Consistency Text Generation from Semantic Parses](https://aclanthology.org/2021.findings-acl.388/)
 
 # Demo for Logic2text
 ```python
