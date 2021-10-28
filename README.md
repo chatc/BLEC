@@ -15,7 +15,7 @@ errors_tokens = blec.evaluate(logic, pred, truth)
 if len(errors_tokens) == 0:
     print('No errors are found!')
 else:
-    print('Erros are found in:',errors_tokens)
+    print('Errors are found in:',errors_tokens)
 ```
 # Citation
 
