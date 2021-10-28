@@ -1,5 +1,7 @@
 # BLEC
-Bidirectional Logic Evaluation for Consistency (BLEC), an pip installable auto metrics for logic consistency between NL and PL.
+Bidirectional Logic Evaluation for Consistency (BLEC), an auto metrics for logic consistency between Natural Language and Formal Languages.
+
+This is the official implementation of the BLEC in the Findings of ACL 2021 paper: Logic-Consistency Text Generation from Semantic Parses
 
 # Demo for Logic2text
 ```python
@@ -16,6 +18,7 @@ else:
     print('Erros are found in:',errors_tokens)
 ```
 # Citation
+
 Please cite this paper if you use our data or code.
 
 ```angular2html
