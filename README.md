@@ -98,15 +98,15 @@ else:
 │   │       └── spider.py                  # A wrapped class as user interface
 │   └── blec.py                            # Universal user interface for both Logic2text and Spider
 │
-├── test                                   # Files related to test if BLEC works
-│   ├── Spider                             # Data copied from original paper
+├── test                                   # Files to test if BLEC works
+│   ├── Spider                             # Spider data copied from original paper
 │   ├── logic2text_raw_test.json           # Raw test dataset of Logic2text
 │   ├── logic2text_test.py                 # Code for testing BLEC on Logic2text
 │   ├── multi_dataset_samples.json         # Model predictions of Logic2text, used as input of logic2text.py
-│   ├── spider_test.py                     # Test code of spider without using BLEC
+│   ├── spider_test.py                     # Test code of spider without using class
 │   ├── template_to_names_dev.json         # The preprocessed template on Spider dev set
 │   └── template_to_names_test.json        # The preprocessed template on Spider test set
-├── demo_test.py                           # Write the demo code (the same as the code in readme)
+├── demo_test.py                           # The demo code (the same as the code in readme)
 ├── README.md                              # This file itself
 └── requirements.txt                       # Use pip to install these packages
 ```
