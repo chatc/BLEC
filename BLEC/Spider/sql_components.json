@@ -1,0 +1,59 @@
+{
+  "OP": {
+    "=": ["is", "was", "are", "equal"],
+    ">": ["is more than", "higher than", "above", "bigger than", "older than", "longer than", "after", "over", "above"],
+    "<": ["is less than", "lower than", "below", "small than", "younger than", "shorter than", "before", "under", "below"],
+    ">=": ["is no less than", "no lower than", "no below", "no small than", "no younger than", "no shorter than",
+      "no before", "no under", "at least", "or more", "no below", "not less than", "not lower than", "not below",
+      "not small than", "not younger than", "not shorter than", "not before", "not under", "not below"],
+    "<=": ["is no more than", "no higher than", "no above", "no bigger than", "no older than", "no longer than",
+      "no after", "no over", "no above", "at most", "or less", "not more than", "not higher than", "not above",
+      "not bigger than", "not older than", "not longer than", "not after", "not over", "not above"],
+    "!=": ["does not equal to", "is not", "that are not", "were not", "that was not", "is non", "excluding", "not including",
+      "except for", "ignore", "outside", "other than"],
+    "LIKE": ["has the substring", "contains the word", "contains", "containing", "have substring", "starts with", "have the letter", "includes the substring"]
+  },
+  "AGG": {
+    "MAX": ["maximum", "maximum number of", "maximum amount of", "the largest", "the longest", "the most recent", "the oldest",
+      "the latest", "the highest", "the most expensive", "the last"],
+    "MIN": ["minimum", "minimum number of", "minimum amount of", "the smallest", "the shortest", "the first", "the lowest", "the youngest", "the cheapest"],
+    "COUNT": ["number","how many", "Count the number of", "What is the count of", "Find the number of", "the number of"],
+    "SUM": ["the total number of", "total", "how many", "total count of", "sum of", "in total", "the number of all", "the total amount of"],
+    "AVG": ["the average", "the average number of", "the mean"]
+  },
+  "SC": {
+    "ASC": ["sorted in ascending order", "sorted ascending", "in ascending order", "ordered ascending", "in ascending alphabetical order", "ordered alphabetically",
+      "starting with the youngest", "ordered from small to big", "ordered from least to greatest", "from the oldest to the most recent", "in alphabetical order"],
+    "DESC": ["in descending order", "ordered from big to small", "ordered from greatest to least", "from the most recent to the oldest", "sorted in descending order",
+      "sorted descending",  "ordered descending", "starting with the largest", "in descending alphabetical order"]
+  },
+  "SC_COL": {
+    "ASC": ["sorted by [COL] in ascending order", "sorted by [COL] ascending", "in ascending order of", "ordered ascending by", "starting with the smallest",
+      "ordered by [COL] from small to big", "ordered by [COL] from least to greatest", "by [COL] from the oldest to the most recent"],
+    "DESC": ["in descending order of", "ordered by [COL] from big to small", "ordered by [COL] from greatest to least", "by [COL] from the most recent to the oldest",
+      "sorted by [COL] in descending order", "sorted by [COL] descending",  "ordered descending by", "starting with the largest"]
+  },
+  "SC_COL_LIMIT": {
+    "ASC": ["is the lowest", "is the youngest", "with the least", "with the lowest", "has least number of", "that has the smallest", "are the shortest", "the cheapest", "is the worest"],
+    "DESC": ["is the highest", "is the oldest", "has most number of", "with the most", "that has the largest", "is the longest", "is most recently", "was the latest", "is the tallest", "is the most expensive"],
+    "ASC_NUM": ["with the top [NUM] lowest", "with the top [NUM] youngest", "with the [NUM] least", "with the top [NUM] lowest", "has the top [NUM] least number of",
+      "that has the top [NUM] smallest", "is the top [NUM] shortest", "are the top [NUM] cheapest", "the [NUM] worest"],
+    "DESC_NUM": ["is the top [NUM] highest", "is the top [NUM] oldest", "has top [NUM] most number of", "with the top [NUM] most", "that has the top [NUM] largest",
+      "is the top [NUM] longest", "with the top [NUM] most recently", "are the top [NUM] latest", "are the top [NUM] tallest", "with the top [NUM] most expensive"]
+  },
+  "SC_COL_COUNT_LIMIT": {
+    "ASC-A": ["that has been mentioned the fewest number of times", "is least common", "that has the least", "has least number of", "with the least",
+      "appears least frequently in", "appears the least often", "has the lowest amount of"],
+    "DESC-A": ["that has been mentioned the greatest number of times", "that has the most", "makes up the majority of", "has most number of", "is most common",
+      "with the most", "appears most frequently in", "appears the most often", "has the highest amount of", "that is used most frequently"],
+    "ASC_NUM-A": ["that has been mentioned the top [NUM] fewest number of times", "is top [NUM] least common", "that has the top [NUM] least",
+      "has top [NUM] least number of", "with the top [NUM] least", "appears top [NUM] least frequently in", "appears the top [NUM] least often", "has the top [NUM] lowest amount of"],
+    "DESC_NUM-A": ["that has the top [NUM] most", "has top [NUM] most number of", "is top [NUM] most common",
+      "with the top [NUM] most", "appears top [NUM] most frequently in", "appears the top [NUM] most often", "has the top [NUM] highest amount of", "that is used top [NUM] most frequently"],
+    "ASC-B": ["the least common", "the most unusual", "the least frequent", "the least popular", "the most unpopular", "the smallest", "the fewest"],
+    "DESC-B": ["the most", "the most common", "the most popular", "the most frequent", "the largest", "the most prominent"],
+    "ASC_NUM-B": ["the top [NUM] least common", "the top [NUM] most unusual", "the top [NUM] least frequent", "the top [NUM] least popular", "the top [NUM] most unpopular",
+      "the top [NUM] smallest", "the top [NUM] fewest"],
+    "DESC_NUM-B": ["the top [NUM] most", "the top [NUM] most common", "the top [NUM] most popular", "the top [NUM] most frequent", "the top [NUM] largest", "the top [NUM] most prominent"]
+  }
+}
